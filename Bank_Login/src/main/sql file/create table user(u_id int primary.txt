@@ -1,0 +1,1 @@
+create table user(u_id int primary key,account_no varchar(10),name varchar(20),email varchar(25),password varchar(10),address varchar(15),balance varchar(10));

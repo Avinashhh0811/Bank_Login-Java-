@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #f0f4f9;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        color: #222;
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 450px;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+
+    input {
+        width: 100%;
+        padding: 14px;
+        margin: 12px 0;
+        border-radius: 6px;
+        border: 1px solid #aaa;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 14px;
+        background: #4b79a1;
+        color: white;
+        border: none;
+        font-size: 17px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #35506b;
+    }
+
+    .register {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .register a {
+        color: #4b79a1;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Welcome Back</h1>
+
+    <form action="loginservlet" method="post">
+
+        <input type="text" name="a" placeholder="Enter User ID" required>
+
+        <input type="password" name="b" placeholder="Enter Password" required>
+
+        <input type="submit" value="Login" class="btn">
+
+        <div class="register">
+            New User? <a href="reg.html">Create Account</a>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
