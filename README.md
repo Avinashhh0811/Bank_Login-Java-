@@ -7,5 +7,5 @@ Features :
 ✔ Check Account Balance
 ✔ MySQL Database Connectivity (JDBC)
 ✔ Servlet-based Backend Architecture
-<br><br> **Steps to execute :** <br><br>1)  create a dynamic web project -> add mysql connerctor jar file to project (right click on project -> build path -> configur build path -> go to libraries -> click on class path -> click on add external jars).<br>br><img width="529" height="697" alt="image" src="https://github.com/user-attachments/assets/6d362841-6ac4-4ad4-82ae-fc73b62a22a5" />
+<br><br> **Steps to execute :** <br><br>1)  create a dynamic web project -> add mysql connerctor jar file to project (right click on project -> build path -> configur build path -> go to libraries -> click on class path -> click on add external jars -> create package in src folder and create three servlet files(right click on src create servlet files)).<br>br><img width="529" height="697" alt="image" src="https://github.com/user-attachments/assets/6d362841-6ac4-4ad4-82ae-fc73b62a22a5" />
 
